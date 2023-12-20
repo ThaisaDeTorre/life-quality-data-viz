@@ -1,0 +1,20 @@
+The project documentation has the following requirements:
+
+in A4 document format
+in pdf
+from 5.000 to 8.000 characters, space included
+The report can also include images. It has to be submitted together with the project folder.
+
+ 
+
+The following is the list of content:
+
+Title, authors, academic year
+Link to the online webpage (example)
+Short abstract
+Introduction (including the research questions, the main target, and the desired outcome)
+Data sources
+Data pre-processing
+Data visualizations (design, development, findings)
+Interface design
+Next steps 
