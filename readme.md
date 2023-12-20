@@ -1,5 +1,6 @@
 # Life Quality Analysis
 
+
 ## Info
 - **Authors**: Thaisa, Federico, Luca
 - **Course**: Data Visualization
@@ -15,5 +16,7 @@ Compare our conclusions with the quality of life data we found. Based even on ou
 
 ## Resources
 [Smart City index](https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/)
+
 [Crime, violence or vandalism](https://ec.europa.eu/eurostat/databrowser/view/ilc_mddw06/default/table?lang=en)
+
 [European Population](https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table?lang=en)
