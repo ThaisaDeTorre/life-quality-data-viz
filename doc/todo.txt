@@ -1,3 +1,10 @@
+TODO:
+
+- add downloadable datasets
+- update website texts
+- update flourish charts
+
+--------------------------
 The project documentation has the following requirements:
 
 in A4 document format
@@ -18,3 +25,5 @@ Data pre-processing
 Data visualizations (design, development, findings)
 Interface design
 Next steps 
+
+
