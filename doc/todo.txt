@@ -27,3 +27,12 @@ Interface design
 Next steps 
 
 
+Text:
+
+So, what is the correlation between these scores and crime?
+----
+Results:
+According to the chart, there is a positive correlation between the Smartcity_Index and the Smart_Government, Smart_Living, and Crime_Indexes. This means that countries with higher Smartcity_Index scores tend to have higher Smart_Government, Smart_Living, and lower Crime_Index scores. This suggests that investing in Smartcity initiatives can lead to improvements in government efficiency, quality of life, and public safety.
+
+
+
