@@ -51,7 +51,8 @@
                     <nav id="navbar" class="navbar order-last order-lg-0">
                         <ul>
                             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                            <li><a class="nav-link scrollto" href="#smart_scores">Smart Scores</a></li>
+                            <li><a class="nav-link scrollto" href="#bout_smart">About Smart</a></li>
+                            <li><a class="nav-link scrollto" href="#about_crime">About Crime</a></li>
                             <li><a class="nav-link scrollto" href="#smart_crime">Smart & Crime</a></li>
                             <li><a class="nav-link scrollto " href="#crime_population">Crime & Population</a></li>
                             <li><a class="nav-link scrollto" href="#top_10">Conclusion</a></li>
@@ -143,7 +144,7 @@
         <!-- End About Europe Section -->
 
         <!-- ======= Smart scores Section ======= -->
-        <section id="smart_scores" class="smart_scores features">
+        <section id="about_smart" class="smart_scores features">
             <div class="container">
 
                 <div class="row">
@@ -203,6 +204,8 @@
                     <div class="col-lg-6">
                         <img src="assets/img/agenda2030.png"
                             class="img-fluid w-100 float-start col-lg-6 order-1 order-lg-2" alt="sustainable goals">
+                        <p>The scores cover the same areas as the Agenda 2030 and the
+                            Sustainable Development Goals. The original survey was made over these goals.</p>
                     </div>
                 </div>
             </div>
@@ -210,54 +213,33 @@
         <!-- Smart scores Section -->
 
         <!-- ======= Crime focus Section ======= -->
-        <section id="crime_focus" class="smart_scores features">
+        <section id="about_crime" class="smart_scores features">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Let's focus on the living...</h2>
-                    <h3>We chose to focus on the crime aspect, for .... security...</h3>
+                    <h3>The Intersection of Smart Cities and Crime Rates</h3>
                 </div>
 
                 <div class="row content">
                     <div class="col-12 mb-4">
-                        <h5>Smart city dataset</h5>
+                        <h5>Exploring the Impact of Smart Initiatives on Urban Safety</h5>
                         <p>
-                            Utilizing different types of IoT (Internet of Things) sensors to collect and manage data -
-                            combined with
-                            many other technical integrations into our city hubs - defines the future of data &
-                            automation
-                            being
-                            embedded in our urban-living. Think of Smart Cities as a customer experience - for residents
-                            of
-                            a city.
-                            This data was taken from
-                            <a
-                                href="https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets">Kaggle</a>.
-                        </p>
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>Population dataset</h5>
-                        <p>
-                            The dataset represents the number of people having their usual residence in a country on 1
-                            January of the
-                            respective year. When
-                            usually resident population is not available, countries may report legal or registered
-                            residents.
-                            This dataset was taken from <a
-                                href="https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table?lang=en">Eurostat</a>.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0">
-                        <h5>Crime dataset</h5>
-                        <p>
-                            The dataset "Crime, violence or vandalism in the area by degree of urbanization" provides
-                            information on
-                            the occurrence of crime, violence, or vandalism in different urbanization settings. It was
-                            taken
-                            from
-                            <a
-                                href="https://ec.europa.eu/eurostat/databrowser/view/ilc_mddw06/default/table?lang=enhttps:%2F%2Fec.europa.eu%2Feurostat%2Fdatabrowser%2Fview%2Fcrim_off_cat%2Fdefault%2Ftable%3Flang%3Den">Eurostat</a>,
-                            as a part of the statistics on income and living conditions (EU-SILC).
+                            The intersection of smart city initiatives and crime rates has become a topic of increasing
+                            interest,
+                            with a growing body of research aiming to understand the relationship between the two. As
+                            smart city
+                            technologies continue to be integrated into urban environments, there is a need to explore
+                            how these
+                            advancements may impact the safety and security of residents. This is particularly relevant
+                            given the
+                            emphasis on creating safe and sustainable cities within the smart city framework. By delving
+                            into a
+                            separate dataset focused on crime rates, it is possible to gain a more detailed
+                            understanding of the
+                            security aspect of smart cities and to analyze how smart initiatives may influence crime
+                            levels,
+                            ultimately contributing to the development of more comprehensive and effective urban safety
+                            strategies.
                         </p>
                     </div>
                 </div>
@@ -275,19 +257,23 @@
                 </div>
 
                 <div class="row mb-3">
-                    <div class="flourish-embed flourish-chart" data-src="visualisation/16275630">
+                    <div class="flourish-embed flourish-scatter" data-src="visualisation/16392222">
                         <script src="https://public.flourish.studio/resources/embed.js"></script>
                     </div>
+                    <!-- <div class="flourish-embed flourish-chart" data-src="visualisation/16275630">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div> -->
+                </div>
+                <div class="section-subtitle mt-3">
+                    <h2>Let's analyze these clusters</h2>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h3>Smart living</h3>
                         <div class="flourish-embed flourish-chart" data-src="visualisation/16384912">
                             <script src="https://public.flourish.studio/resources/embed.js"></script>
                         </div>
                     </div>
                     <div class="col">
-                        <h3>Smart Government</h3>
                         <div class="flourish-embed flourish-chart" data-src="visualisation/16384912">
                             <script src="https://public.flourish.studio/resources/embed.js"></script>
                         </div>
@@ -316,7 +302,7 @@
 
                 <div class="row">
                     <div class="col text-center text-lg-start">
-                        <h3>According to the chart,</h3>
+                        <h3>According to the charts,</h3>
                         <p>There is a positive correlation between the Smartcity_Index and the
                             Smart_Government, Smart_Living, and Crime_Indexes. This means that countries with higher
                             Smartcity_Index scores tend to have higher Smart_Government, Smart_Living, and lower
@@ -371,9 +357,7 @@
                         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur.
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim
-                            id est
-                            laborum.</p>
+                            anim id est laborum.</p>
                     </div>
                 </div>
             </div>
@@ -386,6 +370,7 @@
 
                 <div class="section-title">
                     <h2>Population variation and smart index score</h2>
+                    <h4>Use the mouse to discover the population changes!</h4>
                     <p>How much has the population changed before and after these smart scores were taken? Lorem ipsum
                         dolor
                         sit
@@ -542,70 +527,6 @@
         <!-- Confronto top 10 Section -->
 
         <!-- ======= bubble Section ======= -->
-        <!-- <section id="portfolio" class="portfolio"> -->
-        <!-- <section id="comparison" class="comparison">
-        <div class="container">
-
-          <div class="section-title">
-            <h2>Top 10 countries, comparison</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-              sit
-              in iste officiis commodi quidem hic quas.</p>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
-                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
-                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section> -->
         <section id="smart_bubble" class="comparison finale_bubble">
             <div class="container">
 
@@ -641,76 +562,6 @@
         </section>
         <!-- End bubble Section -->
 
-        <!-- ======= Faq Section ======= -->
-        <!-- <section id="faq" class="faq">
-      <div class="container-fluid">
-
-        <div class="row">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
-            <div class="content">
-              <h3>Frequently Asked <strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-            </div>
-
-            <div class="accordion-list">
-              <ul>
-                <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">Non consectetur a
-                    erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
-                      class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                      gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">Feugiat scelerisque
-                    varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i
-                      class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                      id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
-                      pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
-                      dui.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Dolor sit amet
-                    consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i
-                      class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                      elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                      eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                      sed odio morbi quis
-                    </p>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-            style='background-image: url("assets/img/faq.jpg");'>&nbsp;</div>
-        </div>
-
-      </div>
-    </section> -->
-        <!-- End Faq Section -->
     </main>
     <!-- End #main -->
 
@@ -718,7 +569,7 @@
     <footer id="footer">
         <div class="container">
             <h4>Thaisa DeTorre, Federico Panico, Luca Testoni</h4>
-            <p>SUPSI 2023-2024, Bachelor in Data Science and Artificial Intelligence, Data Visualization course by
+            <p class="text-center">SUPSI 2023-2024, Bachelor in Data Science and Artificial Intelligence, Data Visualization course by
                 Giovanni
                 Profeta</p>
             <div class="copyright">
@@ -730,6 +581,7 @@
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/ -->
                 Edited by Thaisa De Torre, Federico Panico, Luca Testoni
+                <br>
                 Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
