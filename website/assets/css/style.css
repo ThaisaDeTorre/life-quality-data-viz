@@ -866,6 +866,11 @@ section {
   font-weight: 700;
 }
 
+.counter-subtitle {
+  color: white;
+  text-align: center;
+}
+
 .counts .counters span {
   font-size: 48px;
   display: block;
