@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bar plot population var-smart | Data visualization course</title>
+	<title>Scatter plot smart-crime | Data visualization course</title>
 	<meta name="description" content="City Life quality analysis">
 	<meta name="author" content="Thaisa De Torre, Federico Panico, Luca Testoni">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,66 +34,110 @@
 </head>
 
 <body>
-	<div id="topbar">
-		<nav>
-			<div class="go_home">
-				<a href="../../" title="Go back">
-					<span>
-						←
-					</span>
-					<span>
-						Back
-					</span>
-				</a>
+	<header id="header" class="fixed-top mt-3">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-xl-9 d-flex align-items-center justify-content-lg-between bg-grey-800">
+					<nav id="navbar" class="navbar order-last order-lg-0"></nav>
+					<a href="../../index.html" class="get-started-btn scrollto"><i class="bi bi-box-arrow-left"></i> Go
+						Back</a>
+				</div>
 			</div>
-		</nav>
-	</div>
-	<main class="w-100">
-		<header class="protocol">
-			<span>
-				<a href="../../../../" title="Go back">
-					← Back
-				</a>
-			</span>
-			<h1>
-				Title of the data visualization n. 1
-			</h1>
-			<h2>
-				Visualization protocol
-			</h2>
-		</header>
-		<article>
-			<section>
-				<h4>Timestamp</h4>
-				<p>Date</p><br />
 
-				<h4>Data source</h4>
-				<p><a
-						href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv">Name
-						of the data source</a></p><br />
+		</div>
+	</header>
 
-				<h4>Dataset</h4>
-				<p>
-					<a href="../../dataset+metadata.zip">Download the dataset and the metadata</a>
-				</p><br />
+	<main id="main" class="mt-3">
+		<div class="container">
+			<div class="section-title">
+				<h1>
+					01 - Scatter plot Smart index vs Crime index
+				</h1>
+				<h2 class="section-title">
+					Visualization protocol
+				</h2>
+			</div>
 
-				<h4>Protocol</h4>
-				<ol style="font-size: 1.3rem;">
-					<li>Action n. 1</li>
-					<li>Action n. 2</li>
-					<li>Action n. 3</li>
-					<li>Action n. 4</li>
-					<li>Action n. 5</li>
-					<li>Action n. 6</li>
-					<li>Action n. 7</li>
-					<li>Action n. 8</li>
-					<li>Action n. 9</li>
-					<li>Action n. 10</li>
-				</ol>
+			<div class="row content">
+				<article>
+					<div class="col-12 mb-4">
+						<h4>Timestamp</h4>
+						<p>10/01/2024</p>
+					</div>
 
-			</section>
-		</article>
+					<div class="col-12 mb-4">
+						<h4>Data Source</h4>
+						<ul>
+							<li><b>Smart City Dataset</b>:
+								This Kaggle-sourced dataset focuses on the integration of IoT sensors and advanced
+								technologies in
+								urban hubs, shaping the future of data and automation in city living.</li>
+							<li><b>Crime Dataset</b>:
+								Derived from Eurostat's EU-SILC, this dataset details the occurrence of crime,
+								violence, or
+								vandalism across various urbanization settings, providing valuable insights into
+								safety and
+								security
+								trends.</li>
+						</ul>
+					</div>
+
+					<div class="col-12 mb-4">
+						<h4>Datasets</h4>
+						<ul>
+							<li><a href="https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets">Smart
+									city dataset</a></li>
+							<li><a href="https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table?lang=en">Population
+									dataset</a></li>
+							<li><a class="link-body-emphasis link-offset-2" href="../assets/datasets/SmartPopul_Bar.csv"
+									title="Download dataset">
+									<i class="bi bi-download"></i> Download the dataset
+								</a></li>
+						</ul>
+					</div>
+
+					<div class="col-12 mb-4">
+						<h4>Protocol</h4>
+						<ol>
+							<li>Merged the two datasets</li>
+							<li>Eliminated unnecessary columns</li>
+							<li>Indexes average performed between the city of the same country and kept only the
+								capital
+								(if present otherwise one of the biggest).</li>
+							<li>Ordered by smart index (ASC)</li>
+							<li>
+								Graph settings:
+								<ul>
+									<li>x_axis : Country</li>
+									<li>y_axis : SmartCity_Index</li>
+									<li>popup : Population (2019-2021), City</li>
+								</ul>
+							</li>
+						</ol>
+					</div>
+				</article>
+			</div>
+		</div>
 	</main>
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+
+	<!-- Bootstrap CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
